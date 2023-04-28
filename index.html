@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de IMC</title>
+    <link rel="stylesheet" href="style.css" media="all">
+    <link rel="stylesheet" href="media.css">
+</head>
+<body>
+    <main>
+        <h1>Calculadora IMC</h1>
+        <hr>
+        <form action="cadastro.php" method="post" autocomplete="off">
+            <div class="cadastro">
+                <label for="nometxt">Nome:</label> 
+                <input type="text" name="nome" id="nometxt">
+            </div>
+
+            <div class="cadastro">
+                <label for="alturatxt">Altura:</label>
+                <input type="number" name="altura" id="alturatxt" step="0.1" placeholder="EXEMPLO: 1.66">
+            </div>
+
+            <div class="cadastro">
+                <label for="pesotxt" id="lpeso">Peso:</label>
+                <input type="number" name="peso" id="pesotxt" step="0.1" placeholder="EXEMPLO: 55.2">
+            </div>
+
+            <div id="p">
+
+            </div>
+
+            <div>
+                <input type="button" value="Calcular IMC" id="calcular" onclick="clicar()">
+            </div>
+        </form>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>

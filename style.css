@@ -1,0 +1,76 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+    font-size: 20px;
+    text-shadow: 2px 2px 2px #0000002a;
+    background-image: linear-gradient(to right, yellow, #ffe600, #ffc400);
+    height: 100vh;
+}
+
+h1 {
+    text-align: center;
+}
+
+hr {
+    height: 4px;
+    background-color: black;
+    border: none;
+}
+
+
+input {
+    width: 150px;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.384);
+    text-indent: 5px;
+}
+
+input:focus {
+    outline: none;
+}
+
+#lpeso {
+    margin-right: 7px;
+}
+
+div {
+    padding: 10px;
+    width: 300px;
+    margin: auto;
+}
+
+.cadastro {
+    width: 270px;
+}
+
+#p {
+    width: 300px;
+    height: 150px;
+    background-color: black;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #01a101;
+    font-size: 16px;
+    text-align: justify;
+}
+
+#calcular {
+    width: 300px;
+    color: red;
+    background-color: black;
+    cursor: pointer;
+    font-size: 20px;
+}
